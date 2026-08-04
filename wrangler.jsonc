@@ -7,7 +7,7 @@
   "workers_dev": false,
   "routes": [
     {
-      "pattern": "cap.yanyn.cn/*",
+      "pattern": "cap.yanyn.cn",
       "custom_domain": true
     }
   ],
