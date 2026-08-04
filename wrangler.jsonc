@@ -11,22 +11,15 @@
       "custom_domain": true
     }
   ],
-  "migrations": [
+  "d1_databases": [
     {
-      "new_sqlite_classes": ["CapStorageDurableObject"],
-      "tag": "v1"
+      "binding": "CAP_DB",
+      "database_name": "cap-data",
+      "database_id": "你的D1数据库ID"
     }
   ],
   "assets": {
     "directory": "./public"
-  },
-  "durable_objects": {
-    "bindings": [
-      {
-        "class_name": "CapStorageDurableObject",
-        "name": "CAP_STORAGE"
-      }
-    ]
   },
   "observability": {
     "enabled": true
